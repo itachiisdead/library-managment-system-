@@ -31,23 +31,27 @@ lb1.place(x=0,y=0)
 #button.pack() 
 def go_to_issue_page():
     home.destroy()
-    import issue
+    import issueBook
     
 def go_to_booklist_page():
     home.destroy()
-    import book_list   
+    import book_list 
+    
+def go_to_return_page():
+    home.destroy()
+    import return_book    
     
 issue_btn=Button(home,text="issue Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4,command=go_to_issue_page)
 issue_btn.place(relx=0.5, rely=0.37, relwidth=0.22, relheight=0.09)
 
 
-return_btn=Button(home,text="Return Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4)
+return_btn=Button(home,text="Return Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4,command=go_to_return_page)
 return_btn.place(relx=0.2, rely=0.37, relwidth=0.22, relheight=0.09)
 
 list_btn=Button(home,text="List of Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4,command=go_to_booklist_page)
 list_btn.place(relx=0.2, rely=0.5, relwidth=0.22, relheight=0.09)
 
-borrow_btn=Button(home,text="Borrowed Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4)
+borrow_btn=Button(home,text="Borrowed Books",font=font,bg='darkslategrey',relief='ridge',borderwidth=4,command=go_to_issue_page)
 borrow_btn.place(relx=0.5, rely=0.5, relwidth=0.22, relheight=0.09)
     
 #create_home_frame()
