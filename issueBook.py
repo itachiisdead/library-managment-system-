@@ -138,7 +138,7 @@ def Issue_frame():
 
 
 #background image
-img_bg=Image.open('images/back.jpg')
+img_bg=Image.open('pics/back_ground.jpg')
 bck_bg=ImageTk.PhotoImage(img_bg)    
 pic_label=Label(Issue,image=bck_bg)
 pic_label.place(x=0,y=0 )
