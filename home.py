@@ -14,7 +14,7 @@ x=int((screenwidth-w)/2)
 y=int((screenhiget-h)/2)
 #root.geometry("600x400")
 #root.configure(bg='#696969')
-
+#update
 
 img=Image.open('pics/back_ground.jpg')
 print(img.size) 
