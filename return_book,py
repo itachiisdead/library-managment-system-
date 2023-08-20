@@ -25,7 +25,7 @@ def back():
 
 img_bg=Image.open('pics/back_ground.jpg')
 bck_bg=ImageTk.PhotoImage(img_bg)    
-pic_label=Label(book_list,image=bck_bg)
+pic_label=Label(return_book,image=bck_bg)
 pic_label.place(x=0,y=0 )
 
  frame = Frame(return_book,bg='slategrey')
