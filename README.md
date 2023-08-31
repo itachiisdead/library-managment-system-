@@ -8,3 +8,6 @@ Search functionality: Easily search and retrieve books based on various criteria
 Reporting: Generate reports on book circulation, overdue books, and other library statistics.
 User authentication: Secure login system for librarians to access the system and perform authorized actions.
 
+Technologies Used
+Programming language: Python
+Database: SQLite
