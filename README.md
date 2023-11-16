@@ -13,6 +13,7 @@ Reporting: Generate reports on book circulation, overdue books, and other librar
 
 User authentication: Secure login system for librarians to access the system and perform authorized actions.
 
+
 Technologies Used
 Programming language: Python
 Database: SQLite
